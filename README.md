@@ -16,7 +16,8 @@ TrackGarden is a lightweight, high-performance web application designed to help 
 - **Strategic Date Validation**: 
     - **To-Do Tasks** cannot be set for past dates.
     - **Completed Tasks** cannot be claimed for future dates.
-    - Clicking **"Action is Done"** automatically marks the task as completed for **today**, regardless of its original scheduled date.
+    - **"Action is Done"** automatically marks the task as completed for **today**, regardless of its original scheduled date.
+- **🔃 Automated Sorting**: To-Do tasks are sorted by urgency (closest first), while Completed tasks show your most recent work at the top.
 - **📱 Responsive Design**: Fully optimized for mobile, tablet, and desktop using a premium Tailwind CSS aesthetic.
 
 ## 🚀 Tech Stack

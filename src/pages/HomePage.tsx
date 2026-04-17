@@ -125,8 +125,14 @@ const HomePage = () => {
     setMessage('');
   };
 
-  const todoTasks = tasks.filter((task) => task.status === 'todo');
-  const completedTasks = tasks.filter((task) => task.status === 'completed');
+  // Logic to sort tasks: To-Do is ascending (closest first), Completed is descending (most recent first)
+  const todoTasks = tasks
+    .filter((task) => task.status === 'todo')
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+  const completedTasks = tasks
+    .filter((task) => task.status === 'completed')
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-4 sm:px-6 lg:px-8">
