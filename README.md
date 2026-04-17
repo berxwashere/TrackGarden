@@ -5,7 +5,7 @@
 
 TrackGarden is a lightweight, high-performance web application designed to help farmers and garden enthusiasts manage their daily tasks while keeping an eye on the weather. Built with a focus on speed, localization, and user experience.
 
-![TrackGarden Preview](https://via.placeholder.com/800x400?text=TrackGarden+App+Preview)
+![TrackGarden Preview](./media/preview.png)
 
 ## ✨ Key Features
 

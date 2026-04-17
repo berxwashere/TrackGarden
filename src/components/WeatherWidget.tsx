@@ -149,8 +149,6 @@ const WeatherWidget = ({ language }: WeatherWidgetProps) => {
         },
         (error) => {
           // Fallback logic for non-permission errors
-          console.log('Initial geoloc error:', error.code);
-
           // Code 1 = Permission Denied (Handled by the 2s timer above)
           // Others = Fallback to Istanbul default
           if (error.code !== 1) {
