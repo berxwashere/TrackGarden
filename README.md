@@ -5,20 +5,21 @@
 
 TrackGarden is a lightweight, high-performance web application designed to help farmers and garden enthusiasts manage their daily tasks while keeping an eye on the weather. Built with a focus on speed, localization, and user experience.
 
-![TrackGarden Preview](./media/preview.png)
+**Preview screenshot:** [TrackGarden Full App Preview](https://github.com/user-attachments/assets/653c9911-becf-49c1-bb16-62ee0a231431)
 
 ## ✨ Key Features
 
 - **✅ Smart Task Management**: Easily add, edit, and organize your agricultural tasks. 
 - **🌤️ Local Weather Integration**: Real-time 3-day forecast powered by OpenWeatherMap to help you make informed decisions (planting, irrigation, pruning).
 - **🌍 Full Localization**: Seamlessly switch between **Turkish** and **English**.
+- **📱 Responsive Design**: Fully optimized for mobile, tablet, and desktop using a premium Tailwind CSS aesthetic.
 - **💾 Persistent Storage**: All your data is saved locally in your browser. No accounts or databases required.
-- **Strategic Date Validation**: 
+- **🔃 Strategic Date Validation**: 
     - **To-Do Tasks** cannot be set for past dates.
     - **Completed Tasks** cannot be claimed for future dates.
     - **"Action is Done"** automatically marks the task as completed for **today**, regardless of its original scheduled date.
-- **🔃 Automated Sorting**: To-Do tasks are sorted by urgency (closest first), while Completed tasks show your most recent work at the top.
-- **📱 Responsive Design**: Fully optimized for mobile, tablet, and desktop using a premium Tailwind CSS aesthetic.
+    - **Automated Sorting**: To-Do tasks are sorted by urgency (closest first), while Completed tasks show your most recent work at the top.
+
 
 ## 🚀 Tech Stack
 
